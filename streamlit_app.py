@@ -14,7 +14,7 @@ with st.sidebar:
         ,max_value = 20.0
         ,value = 5.0
         ,step = 0.1
-        ,format = "%f"
+        ,format = "%.1f"
         ,key = 'input-rate'
         ,help = 'Selected interest rate'
         )
@@ -25,7 +25,7 @@ with st.sidebar:
         ,max_value = 100.0
         ,value = 20.0
         ,step = 0.1
-        ,format = "%f"
+        ,format = "%.1f"
         ,key = 'input-down'
         ,help = 'Selected down payment amount'
     )
