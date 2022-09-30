@@ -29,3 +29,6 @@ with st.sidebar:
         ,key = 'input-down'
         ,help = 'Selected down payment amount'
     )
+
+st.write(rate_interest)
+st.write(down_amount)
