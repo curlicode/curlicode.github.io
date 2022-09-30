@@ -8,7 +8,7 @@ Hello *world!*
 
 with st.sidebar:
 
-    rate_interest = st.number_input(
+    rate_interest = st.slider(
         'interest rate'.title()
         ,min_value = 0.0
         ,max_value = 20.0
