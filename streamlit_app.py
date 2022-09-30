@@ -30,5 +30,5 @@ with st.sidebar:
         ,help = 'Selected down payment amount'
     )
 
-st.write(rate_interest)
-st.write(down_amount)
+st.write(f"{rate_interest:.1f}")
+st.write(f"{down_amount:.1f}")
