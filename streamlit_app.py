@@ -6,7 +6,7 @@ st.write("""
 Hello *world!*
 """)
 
-with st.siderbar:
+with st.sidebar:
 
     rate_interest = st.number_input(
         'interest rate'.title()
