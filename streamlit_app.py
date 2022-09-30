@@ -9,8 +9,8 @@ Hello *world!*
 
 rate_interest = st.number_input(
     'interest rate'.title()
-    ,min_value = 0
-    ,max_value = 20
+    ,min_value = 0.0
+    ,max_value = 20.0
     ,value = 5.0
     ,step = 0.1
     ,format = '%.1f%'
@@ -20,8 +20,8 @@ rate_interest = st.number_input(
 
 down_amount = st.number_input(
     'down payment'.title()
-    ,min_value = 0
-    ,max_value = 100
+    ,min_value = 0.0
+    ,max_value = 100.0
     ,value = 20.0
     ,step = 0.1
     ,format = '%.1f%'
