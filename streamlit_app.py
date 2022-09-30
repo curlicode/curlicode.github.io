@@ -13,7 +13,7 @@ rate_interest = st.number_input(
     ,max_value = 20.0
     ,value = 5.0
     ,step = 0.1
-    ,format = '%.1f%'
+    ,format = "%f"
     ,key = 'input-rate'
     ,help = 'Selected interest rate'
 )
@@ -24,7 +24,7 @@ down_amount = st.number_input(
     ,max_value = 100.0
     ,value = 20.0
     ,step = 0.1
-    ,format = '%.1f%'
+    ,format = "%f"
     ,key = 'input-down'
     ,help = 'Selected down payment amount'
 )
